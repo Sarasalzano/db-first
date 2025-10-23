@@ -2,18 +2,18 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 
 CARS (AUTO USATE MESSE IN VENDITA)
 
-ID  
-BRAND  
-MODEL  
-YEAR  
-FUEL  
-CONDITION  
-SEATS  
-DOORS  
-KM  
-PRICE  
-TRANSMISSION  
-NOTE  
-COLOUR  
+ID              --INT -- PRIMARY KEY, UNIQUE, NOTNULL, AUTOINCREMENT  
+BRAND           --VARCHAR(20)
+MODEL           --VARCHAR(30) 
+YEAR            --YEAR  
+FUEL            --VARCHAR(20)   
+CONDITION       --VARCHAR(20)   
+SEATS           --TINYINT 
+DOORS           --TINYINT 
+KM              --INT 
+PRICE           --DECIMAL(7,2)
+TRANSMISSION    --VARCHAR(20)
+NOTE            --TEXT   
+COLOUR          --VARCHAR(20)
 
 
