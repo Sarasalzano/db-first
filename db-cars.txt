@@ -1,4 +1,19 @@
 Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario 
 
-CARS (auto usate messe in vendita)
+CARS (AUTO USATE MESSE IN VENDITA)
+
+ID  
+BRAND  
+MODEL  
+YEAR  
+FUEL  
+CONDITION  
+SEATS  
+DOORS  
+KM  
+PRICE  
+TRANSMISSION  
+NOTE  
+COLOUR  
+
 
